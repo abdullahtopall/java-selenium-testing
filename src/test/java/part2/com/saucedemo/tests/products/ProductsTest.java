@@ -15,6 +15,5 @@ public class ProductsTest extends BaseTest {
         assertTrue(productsPage.isProductsHeaderDisplayed(),
                 "\n Products Header Is Not Displayed \n");
 
-
     }
 }
