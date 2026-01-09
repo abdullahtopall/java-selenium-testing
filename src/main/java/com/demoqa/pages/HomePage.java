@@ -1,7 +1,7 @@
-package demoqa.pages;
+package com.demoqa.pages;
 
-import com.saucedemo.pages.BasePage;
-import demoqa.pages.forms.FormsPage;
+import com.base.BasePage;
+import com.demoqa.pages.forms.FormsPage;
 import org.openqa.selenium.By;
 
 import static utilities.JavascriptUtility.scrollToElementJS;
