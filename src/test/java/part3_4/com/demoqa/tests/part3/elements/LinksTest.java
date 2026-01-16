@@ -15,6 +15,6 @@ public class LinksTest extends BaseTest {
                 actualResponse.contains("Bad Request"),
                 "\n Actual Response (" +actualResponse + ")" +
                         "\n Does Not Contain '400' and 'Bad Request' \n");
-
     }
+
 }

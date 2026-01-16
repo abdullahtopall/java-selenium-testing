@@ -10,7 +10,7 @@ public class CheckBoxTest extends BaseTest {
         var formsPage = homePage.goToForms().clickParticeForm();
         formsPage.clickSportsHobbyCheckbox();
         formsPage.clickReadingHobbyCheckbox();
-        formsPage.clickMusicobbyCheckbox();
+        formsPage.clickMusicHobbyCheckbox();
         formsPage.unclickReadingHobbyCheckbox();
 
         boolean isReadingCheckboxSelected = formsPage.isReadingSelected();

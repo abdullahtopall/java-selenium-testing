@@ -35,7 +35,7 @@ public class PracticeFormPage extends FormsPage {
         }
     }
 
-    public void clickMusicobbyCheckbox() {
+    public void clickMusicHobbyCheckbox() {
         if (!find(musicHobbyCheckbox).isSelected()) {
             scrollToElementJS(musicHobbyCheckbox);
             clickJS(musicHobbyCheckbox);
