@@ -15,8 +15,7 @@ public class CheckBoxTest extends BaseTest {
 
         boolean isReadingCheckboxSelected = formsPage.isReadingSelected();
         Assert.assertFalse(isReadingCheckboxSelected,
-                "\n Reading Checkbox Is Selected \n");!
-
-
+                "\n Reading Checkbox Is Selected \n");
     }
+
 }
